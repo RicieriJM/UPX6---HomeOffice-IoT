@@ -10,8 +10,8 @@
 
 // Define as credenciais do WiFi
 char auth[] = "AxxRaam8Oza_o-An_gHSWSji9eydGm88";  // Token recebido pelo e-mail (Blynk)
-char ssid[] = "Alessandra";                        // Nome da rede Wi-Fi
-char pass[] = "santarelli091521";                  // Senha da rede Wi-Fi
+char ssid[] = "XXXXXX";                        // Nome da rede Wi-Fi
+char pass[] = "xxxxxx";                  // Senha da rede Wi-Fi
 
 #define DHTPIN 4                         // Define o pino do DHT22 (exemplo: GPIO 4)
 #define DHTTYPE DHT22                    // Tipo do sensor (DHT22)
