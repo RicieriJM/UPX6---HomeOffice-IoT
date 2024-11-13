@@ -28,7 +28,7 @@ int ledPin = 2;                          // Define o pino do LED (GPIO 2)
 // Função que atribui controle do LED no pino virtual V0 do Blynk
 BLYNK_WRITE(V0) {
   int ledState = param.asInt();
-  digitalWrite(ledPin, ledState);
+  analogWrite(ledPin, ledState);
 }
 
 // Função que atribui controle do servo destinado a encosto no pino virtual V1 do Blynk
